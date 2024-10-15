@@ -15,18 +15,11 @@ _총 7개의 글_
 - [StringBuilder란 무엇인가](https://github.com/river20s/TIL/blob/main/Java/StringBuilder%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80.md)
 
 ### Networks
-
-- [HTTP 프로토콜]()
-- [브라우저란]()
-
-
+- [HTTP 프로토콜](https://github.com/river20s/TIL/blob/main/Networks/HTTP-%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C.md)
 
 ### Python
-
 - [파이썬에서의 `__init__`](https://github.com/river20s/TIL/commit/4bde1f46044e97968fa1521abc0d579560e09c2b)
 
-  
-  
 ### Web
 - [브라우저](https://github.com/river20s/TIL/blob/main/Web/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80.md) 
 ---
