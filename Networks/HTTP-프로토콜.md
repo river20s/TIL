@@ -1,6 +1,6 @@
 # HTTP 프로토콜
 
-URL을 해독하여 어디에 액세스 해야 하는지 알게 된 브라우저는, HTTP 프로토콜을 사용하여 웹 서버에 액세스한다. 여기서 HTTP 프로토콜이란 클라이언트와 서버가 주고 받는 메시지의 내용이나 순서를 약속한 것이다. 
+[URL](https://github.com/river20s/TIL/blob/main/Networks/HTTP-%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C.md)을 해독하여 어디에 액세스 해야 하는지 알게 된 브라우저는, HTTP 프로토콜을 사용하여 웹 서버에 액세스한다. 여기서 HTTP 프로토콜이란 클라이언트와 서버가 주고 받는 메시지의 내용이나 순서를 약속한 것이다. 
 
 > The HyperText Transfer Protocol (**HTTP**)은 [Web](https://developer.mozilla.org/ko/docs/Glossary/World_Wide_Web)에서 하이퍼미디어 문서를 전송하는 네트워크 [프로토콜](https://developer.mozilla.org/ko/docs/Glossary/Protocol)입니다. 일반적으로 하이퍼미디어 문서를 사람들이 읽을 수 있도록 브라우저와 서버 사이에 존재합니다. 현재 버전의 HTTP 명세는 [HTTP/2](https://developer.mozilla.org/ko/docs/Glossary/HTTP_2)입니다.
 >
