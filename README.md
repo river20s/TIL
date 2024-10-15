@@ -6,7 +6,7 @@
 _총 7개의 글_
 
 ### 📖 Book
-[독서 기록은 `/Books`에서 확인할 수 있다.]()
+[독서 기록은 `/Books`에서 확인할 수 있다.](https://github.com/river20s/TIL/tree/main/Books)
 
 ### Git
 - [브랜치란 무엇인가](https://github.com/river20s/TIL/blob/main/Git/%EB%B8%8C%EB%9E%9C%EC%B9%98%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80.md)
