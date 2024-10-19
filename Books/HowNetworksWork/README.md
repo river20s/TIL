@@ -2,7 +2,7 @@
 **분류**: [#네트워크](https://github.com/river20s/TIL/tree/main/Networks) [#웹](https://github.com/river20s/TIL/tree/main/Web)
 
 > [!Note]
-> [<성공과 실패를 결정하는 1%의 네트워크 원리>](https://github.com/river20s/TIL/blob/main/Books/HowNetworksWork/info-%EC%84%B1%EA%B3%B5%EA%B3%BC-%EC%8B%A4%ED%8C%A8%EB%A5%BC-%EA%B2%B0%EC%A0%95%ED%95%98%EB%8A%94-1%25%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%9B%90%EB%A6%AC.md)를 읽으면서 알게 된 내용을 정리했습니다.
+> [<성공과 실패를 결정하는 1%의 네트워크 원리>](https://product.kyobobook.co.kr/detail/S000000559964)를 읽으면서 알게 된 내용을 정리했습니다.
 >
 > 다음은 책의 차례별로 작성된 글들을 모아둔 것입니다.
 
