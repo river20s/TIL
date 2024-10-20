@@ -27,4 +27,5 @@ jobs:
           git config --local user.email "actions@github.com"
           git add README.md
           git commit -m "README 업데이트"
-          git push
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/river20s/TIL.git
+
