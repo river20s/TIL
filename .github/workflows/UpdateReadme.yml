@@ -19,12 +19,12 @@ jobs:
           python-version: '3.x'
 
       - name: Run script to update README
-        run: python update_readme.py  
+        run: python UpdateScript.py
 
       - name: Commit updated README
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
           git add README.md
-          git commit -m "Update README with new post count"
+          git commit -m "README 업데이트"
           git push
