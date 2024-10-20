@@ -4,7 +4,7 @@ rootDir = os.path.dirname(os.path.abspath(__file__))
 readmeFile = os.path.join(rootDir, "README.md")
 
 # 제외할 카테고리
-excludeCategories = ["Books"]  
+excludeCategories = ["Books", ".git"]  
 
 # 고정 내용 
 fixedContent = """
