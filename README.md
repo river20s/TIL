@@ -4,13 +4,15 @@
 
 개인적으로 공부한 내용을 위키처럼 모아두는 저장소.
 
-_총 13개의 글_
+_총 11개의 글_
 
 ### 📖 Book
 [독서 기록은 `/Books`에서 확인할 수 있다.](https://github.com/river20s/TIL/tree/main/Books)
 
 ### Design
 - [가십-프로토콜](https://github.com/river20s/TIL/blob/main/Design/가십-프로토콜.md)
+### Data Structure
+- [블룸-필터](https://github.com/river20s/TIL/blob/main/Data Structure/블룸-필터.md)
 ### Java
 - [StringBuilder란-무엇인가](https://github.com/river20s/TIL/blob/main/Java/StringBuilder란-무엇인가.md)
 - [String-클래스](https://github.com/river20s/TIL/blob/main/Java/String-클래스.md)
@@ -22,10 +24,7 @@ _총 13개의 글_
 - [안정-해시로-해결할-수-있는-문제](https://github.com/river20s/TIL/blob/main/Algorithms/안정-해시로-해결할-수-있는-문제.md)
 - [해싱(Hashing)이란](https://github.com/river20s/TIL/blob/main/Algorithms/해싱(Hashing)이란.md)
 ### Git
-- [test3](https://github.com/river20s/TIL/blob/main/Git/test3.md)
 - [fatal:-not-a-git-repository-는-무슨-의미인가](https://github.com/river20s/TIL/blob/main/Git/fatal:-not-a-git-repository-는-무슨-의미인가.md)
-- [test](https://github.com/river20s/TIL/blob/main/Git/test.md)
-- [test2](https://github.com/river20s/TIL/blob/main/Git/test2.md)
 - [브랜치란-무엇인가](https://github.com/river20s/TIL/blob/main/Git/브랜치란-무엇인가.md)
 ### Python
 - [파이썬에서의-__init__](https://github.com/river20s/TIL/blob/main/Python/파이썬에서의-__init__.md)
