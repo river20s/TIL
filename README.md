@@ -11,8 +11,8 @@ _총 11개의 글_
 
 ### Design
 - [가십-프로토콜](https://github.com/river20s/TIL/blob/main/Design/가십-프로토콜.md)
-### Data Structure
-- [블룸-필터](https://github.com/river20s/TIL/blob/main/Data Structure/블룸-필터.md)
+### Data-Structure
+- [블룸-필터](https://github.com/river20s/TIL/blob/main/Data-Structure/블룸-필터.md)
 ### Java
 - [StringBuilder란-무엇인가](https://github.com/river20s/TIL/blob/main/Java/StringBuilder란-무엇인가.md)
 - [String-클래스](https://github.com/river20s/TIL/blob/main/Java/String-클래스.md)
