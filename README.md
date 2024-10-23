@@ -4,7 +4,7 @@
 
 개인적으로 공부한 내용을 위키처럼 모아두는 저장소.
 
-_총 11개의 글_
+_총 15개의 글_
 
 ### 📖 Book
 [독서 기록은 `/Books`에서 확인할 수 있다.](https://github.com/river20s/TIL/tree/main/Books)
@@ -21,6 +21,10 @@ _총 11개의 글_
 ### Web
 - [브라우저](https://github.com/river20s/TIL/blob/main/Web/브라우저.md)
 ### Algorithms
+- [머클(Merkle)트리](https://github.com/river20s/TIL/blob/main/Algorithms/머클(Merkle)트리.md)
+- [루트](https://github.com/river20s/TIL/blob/main/Algorithms/루트.md)
+- [트리](https://github.com/river20s/TIL/blob/main/Algorithms/트리.md)
+- [리프](https://github.com/river20s/TIL/blob/main/Algorithms/리프.md)
 - [안정-해시로-해결할-수-있는-문제](https://github.com/river20s/TIL/blob/main/Algorithms/안정-해시로-해결할-수-있는-문제.md)
 - [해싱(Hashing)이란](https://github.com/river20s/TIL/blob/main/Algorithms/해싱(Hashing)이란.md)
 ### Git
