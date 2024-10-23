@@ -1,0 +1,3 @@
+- [ ] https://brilliant.org/wiki/merkle-tree/
+- [ ] [[머클(Merkle)트리]] 내용 수정하기
+- [ ] 힙 공부하기 
