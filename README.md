@@ -28,7 +28,7 @@ _총 15개의 글_
 - [안정-해시로-해결할-수-있는-문제](https://github.com/river20s/TIL/blob/main/Algorithms/안정-해시로-해결할-수-있는-문제.md)
 - [해싱(Hashing)이란](https://github.com/river20s/TIL/blob/main/Algorithms/해싱(Hashing)이란.md)
 ### Git
-- [fatal:-not-a-git-repository-는-무슨-의미인가](https://github.com/river20s/TIL/blob/main/Git/fatal:-not-a-git-repository-는-무슨-의미인가.md)
+- [fatal-not-a-git-repository-는-무슨-의미인가](https://github.com/river20s/TIL/blob/main/Git/fatal-not-a-git-repository-는-무슨-의미인가.md)
 - [브랜치란-무엇인가](https://github.com/river20s/TIL/blob/main/Git/브랜치란-무엇인가.md)
 ### Python
 - [파이썬에서의-__init__](https://github.com/river20s/TIL/blob/main/Python/파이썬에서의-__init__.md)
