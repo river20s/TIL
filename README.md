@@ -4,7 +4,7 @@
 
 개인적으로 공부한 내용을 위키처럼 모아두는 저장소.
 
-_총 16개의 글_
+_총 17개의 글_
 
 ### 📖 Book
 [독서 기록은 `/Books`에서 확인할 수 있다.](https://github.com/river20s/TIL/tree/main/Books)
@@ -13,6 +13,7 @@ _총 16개의 글_
 - [HashMap](https://github.com/river20s/TIL/blob/main/Java/HashMap.md)
 - [StringBuilder란-무엇인가](https://github.com/river20s/TIL/blob/main/Java/StringBuilder란-무엇인가.md)
 - [String-클래스](https://github.com/river20s/TIL/blob/main/Java/String-클래스.md)
+- [원시-타입](https://github.com/river20s/TIL/blob/main/Java/원시-타입.md)
 ### Networks
 - [HTTP-프로토콜](https://github.com/river20s/TIL/blob/main/Networks/HTTP-프로토콜.md)
 ### Algorithms
