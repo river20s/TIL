@@ -9,15 +9,14 @@ excludeCategories = ["Books", ".git", ".obsidian"]
 # 고정 내용 
 fixedContent = """
 # TIL
-> Today I Learned
 
-개인적으로 공부한 내용을 위키처럼 모아두는 저장소.
+배운 것을 키워드 별로 간결하게 정리한 마크다운 모음입니다.
+
+
+[Josh Branchaud의 til](https://github.com/jbranchaud/til)을 참고했습니다.
+
 
 _총 {totalPosts}개의 글_
-
-### 📖 Book
-[독서 기록은 `/Books`에서 확인할 수 있다.](https://github.com/river20s/TIL/tree/main/Books)
-
 """
 
 # 카테고리별 고정 내용
@@ -67,8 +66,6 @@ def countPostsAndUpdateReadme():
 - [성공과 실패를 결정하는 1%의 네트워크 관리](https://github.com/river20s/TIL/tree/main/Books/HowNetworksWork#readme)
 - [가상 면접 사례로 배우는 대규모 시스템 설계 기초](https://github.com/river20s/TIL/tree/main/Books/System%20Design%20Interview)
 
----
-[참고한 til](https://github.com/jbranchaud/til)
 """)
 
 
