@@ -37,8 +37,8 @@ _총 24개의 글_
 - [NTFS](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/NTFS.md)
 - [RFC 4180](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/RFC 4180.md)
 - [interface.md](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/interface.md.md)
-- [무제](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/무제.md)
 - [메타정보](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/메타정보.md)
+- [MIME](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/MIME.md)
 - [CSV](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/CSV.md)
 - [국제 표준](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/국제 표준.md)
 
