@@ -3,4 +3,4 @@ PEP는 Python Enhancement Proposal의 약자로, 파이썬 커뮤니티에 정�
 
 ### 읽어보기
 - [PEP 1 – PEP Purpose and Guidelines | peps.python.org](https://peps.python.org/pep-0001/#pep-types)
-- 
+- [용어집 — Python 3.13.2 문서](https://docs.python.org/ko/3.13/glossary.html#term-PEP)
