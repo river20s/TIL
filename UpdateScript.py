@@ -12,8 +12,11 @@ fixedContent = """
 
 배운 것을 키워드 별로 간결하게 정리한 마크다운 모음입니다.
 
+옵시디언을 사용해 마크다운 문서를 작성하고 [obsidian git](https://github.com/Vinzent03/obsidian-git) 플러그인으로 자동 커밋과 동기화를 진행합니다.
 
-[Josh Branchaud의 til](https://github.com/jbranchaud/til)을 참고했습니다.
+Github Actions를 사용해서 현재 문서 `README.md`에 카테고리별로 글을 분류하여 갱신하게끔 했습니다.
+
+전체적인 스타일은 [Josh Branchaud의 til](https://github.com/jbranchaud/til)을 참고했습니다.
 
 
 _총 {totalPosts}개의 글_
