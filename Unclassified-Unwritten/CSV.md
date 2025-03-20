@@ -12,16 +12,23 @@
 4. 모든 레코드가 동일한 시퀀스의 필드를 가짐 
 ## 예
 
-|연도|제조사|모델|설명|가격|
-|---|---|---|---|---|
-|1997|Ford|E350|ac, abs, moon|3000.00|
-|1999|Chevy|Venture "Extended Edition"||4900.00|
-|1999|Chevy|Venture "Extended Edition, Very Large"||5000.00|
-|1996|Jeep|Grand Cherokee|MUST SELL!  <br>air, moon roof, loaded|4799.00|
+| 연도   | 제조사   | 모델                                     | 설명                                     | 가격      |
+| ---- | ----- | -------------------------------------- | -------------------------------------- | ------- |
+| 1997 | Ford  | E350                                   | ac, abs, moon                          | 3000.00 |
+| 1999 | Chevy | Venture "Extended Edition"             |                                        | 4900.00 |
+| 1999 | Chevy | Venture "Extended Edition, Very Large" |                                        | 5000.00 |
+| 1996 | Jeep  | Grand Cherokee                         | MUST SELL!  <br>air, moon roof, loaded | 4799.00 |
 위와 같은 표를 CSV 형식으로 표현하면 다음과 같다.
 ```
 연도,제조사,모델,설명,가격 1997,Ford,E350,"ac, abs, moon",3000.00 1999,Chevy,"Venture ""Extended Edition""","",4900.00 1999,Chevy,"Venture ""Extended Edition, Very Large""",,5000.00 1996,Jeep,Grand Cherokee,"MUST SELL!air, moon roof, loaded",4799.00
 ```
 
 ## 파이썬에서 CSV
-위에 서술한 것처럼 CSV에 사용되는 분리 문자와 인용 문자가 다양한 탓에 `line.split(",")`과 같은 식으로 구문 분석하면 실패할 가능성이 있다. 파이썬의 csv 모듈은 CSV 형식의 데이터를 읽고 쓰는 클래스를 구현하는데
+위에 서술한 것처럼 CSV에 사용되는 분리 문자와 인용 문자가 다양한 탓에 `line.split(",")`과 같은 식으로 구문 분석하면 실패할 가능성이 있다. 파이썬은 CSV 형식의 데이터를 읽고 쓰기 위한 모듈을 제공하고 있다. ↪ [`csv` — CSV File Reading and Writing](https://docs.python.org/ko/3.13/library/csv.html)
+
+---
+### 참고한 내용
+- [csv — CSV File Reading and Writing — Python 3.13.2 문서](https://docs.python.org/ko/3.13/library/csv.html)
+- [CSV (파일 형식) - 위키백과, 우리 모두의 백과사전](https://ko.wikipedia.org/wiki/CSV_\(%ED%8C%8C%EC%9D%BC_%ED%98%95%EC%8B%9D\))
+- [PEP 305 – CSV File API | peps.python.org](https://peps.python.org/pep-0305/#abstract)
+- [RFC 4180 - Common Format and MIME Type for Comma-Separated Values (CSV) Files](https://datatracker.ietf.org/doc/html/rfc4180)
