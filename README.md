@@ -4,12 +4,13 @@
 옵시디언을 사용해 마크다운 문서를 작성하고 [obsidian git](https://github.com/Vinzent03/obsidian-git) 플러그인으로 자동 커밋과 동기화를 진행합니다.
 Github Actions를 사용해서 현재 문서 `README.md`에 카테고리별로 글을 분류하여 갱신하게끔 했습니다.
 전체적인 스타일은 [Josh Branchaud의 til](https://github.com/jbranchaud/til)을 참고했습니다.
-*총 27개의 글*
+*총 28개의 글*
 ### 미분류/작성중인 글
 - [전각-문자와-반각-문자](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/전각-문자와-반각-문자.md)
 - [NTFS](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/NTFS.md)
 - [국제-표준](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/국제-표준.md)
 - [RFC-4180](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/RFC-4180.md)
+- [이터레이터](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/이터레이터.md)
 - [interface](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/interface.md)
 - [메타정보](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/메타정보.md)
 - [MIME](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/MIME.md)
