@@ -25,8 +25,8 @@ Github Actions를 사용해서 현재 문서 `README.md`에 카테고리별로 �
 - [트리](https://github.com/river20s/TIL/blob/main/Algorithms/트리.md)
 - [해싱(Hashing)이란](https://github.com/river20s/TIL/blob/main/Algorithms/해싱(Hashing)이란.md)
 - [머클(Merkle)트리](https://github.com/river20s/TIL/blob/main/Algorithms/머클(Merkle)트리.md)
-### Computer System
-- [NIC](https://github.com/river20s/TIL/blob/main/Computer System/NIC.md)
+### Computer-System
+- [NIC](https://github.com/river20s/TIL/blob/main/Computer-System/NIC.md)
 ### Data-Structure
 - [블룸-필터](https://github.com/river20s/TIL/blob/main/Data-Structure/블룸-필터.md)
 ### Design
