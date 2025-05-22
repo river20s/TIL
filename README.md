@@ -4,27 +4,29 @@
 옵시디언을 사용해 마크다운 문서를 작성하고 [obsidian git](https://github.com/Vinzent03/obsidian-git) 플러그인으로 자동 커밋과 동기화를 진행합니다.
 Github Actions를 사용해서 현재 문서 `README.md`에 카테고리별로 글을 분류하여 갱신하게끔 했습니다.
 전체적인 스타일은 [Josh Branchaud의 til](https://github.com/jbranchaud/til)을 참고했습니다.
-*총 32개의 글*
+*총 33개의 글*
 ### 미분류/작성중인 글
 - [struct](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/struct.md)
+- [RFC-4180](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/RFC-4180.md)
+- [Hash-Table](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/Hash-Table.md)
+- [join()](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/join().md)
+- [MIME](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/MIME.md)
 - [전각-문자와-반각-문자](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/전각-문자와-반각-문자.md)
 - [NTFS](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/NTFS.md)
 - [국제-표준](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/국제-표준.md)
-- [RFC-4180](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/RFC-4180.md)
+- [next()](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/next().md)
 - [이터레이터](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/이터레이터.md)
-- [join()](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/join().md)
-- [Hash-Table](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/Hash-Table.md)
 - [interface](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/interface.md)
 - [메타정보](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/메타정보.md)
-- [MIME](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/MIME.md)
-- [next()](https://github.com/river20s/TIL/blob/main/Unclassified-Unwritten/next().md)
 ### Algorithms
 - [루트](https://github.com/river20s/TIL/blob/main/Algorithms/루트.md)
-- [머클(Merkle)트리](https://github.com/river20s/TIL/blob/main/Algorithms/머클(Merkle)트리.md)
-- [해싱(Hashing)이란](https://github.com/river20s/TIL/blob/main/Algorithms/해싱(Hashing)이란.md)
 - [안정-해시로-해결할-수-있는-문제](https://github.com/river20s/TIL/blob/main/Algorithms/안정-해시로-해결할-수-있는-문제.md)
 - [리프](https://github.com/river20s/TIL/blob/main/Algorithms/리프.md)
 - [트리](https://github.com/river20s/TIL/blob/main/Algorithms/트리.md)
+- [해싱(Hashing)이란](https://github.com/river20s/TIL/blob/main/Algorithms/해싱(Hashing)이란.md)
+- [머클(Merkle)트리](https://github.com/river20s/TIL/blob/main/Algorithms/머클(Merkle)트리.md)
+### Computer System
+- [NIC](https://github.com/river20s/TIL/blob/main/Computer System/NIC.md)
 ### Data-Structure
 - [블룸-필터](https://github.com/river20s/TIL/blob/main/Data-Structure/블룸-필터.md)
 ### Design
@@ -35,15 +37,15 @@ Github Actions를 사용해서 현재 문서 `README.md`에 카테고리별로 �
 - [fatal-not-a-git-repository-는-무슨-의미인가](https://github.com/river20s/TIL/blob/main/Git/fatal-not-a-git-repository-는-무슨-의미인가.md)
 - [브랜치란-무엇인가](https://github.com/river20s/TIL/blob/main/Git/브랜치란-무엇인가.md)
 ### Java
-- [String-클래스](https://github.com/river20s/TIL/blob/main/Java/String-클래스.md)
-- [StringBuilder란-무엇인가](https://github.com/river20s/TIL/blob/main/Java/StringBuilder란-무엇인가.md)
 - [원시-타입](https://github.com/river20s/TIL/blob/main/Java/원시-타입.md)
 - [HashMap](https://github.com/river20s/TIL/blob/main/Java/HashMap.md)
+- [StringBuilder란-무엇인가](https://github.com/river20s/TIL/blob/main/Java/StringBuilder란-무엇인가.md)
+- [String-클래스](https://github.com/river20s/TIL/blob/main/Java/String-클래스.md)
 ### Networks
 - [HTTP-프로토콜](https://github.com/river20s/TIL/blob/main/Networks/HTTP-프로토콜.md)
 ### Python
-- [PEP](https://github.com/river20s/TIL/blob/main/Python/PEP.md)
 - [path-like-object](https://github.com/river20s/TIL/blob/main/Python/path-like-object.md)
+- [PEP](https://github.com/river20s/TIL/blob/main/Python/PEP.md)
 - [파이썬에서의-__init__](https://github.com/river20s/TIL/blob/main/Python/파이썬에서의-__init__.md)
 ### Web
 - [브라우저](https://github.com/river20s/TIL/blob/main/Web/브라우저.md)
