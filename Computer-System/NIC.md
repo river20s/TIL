@@ -15,9 +15,16 @@ NIC는 물리 계층 인터페이스(PHY)와 매체 접근 제어 컨트롤러(M
 ## DMA
 NIC는 DMA(Direct Memory Access) 방식을 통해 메인 메모리와 데이터를 주고 받는다. DMA는 CPU 개입 없이 직접 메인 메모리에 접근하여 데이터를 읽거나 쓰는 방식이다. CPU는 데이터 전송 시작과 완료에만 기여하므로, CPU 부하를 줄이고 전송 효율을 높일 수 있다. 
 CPU가 직접 레지스터를 통해 데이터를 바이트 단위 또는 워드 단위로 전송하는 PIO(Programmed I/O)에 비해 효율적이다.
-OS의 네트워크 스택은 송신할 데이터가 담긴 버퍼의 주소와 크기를 디스크립터에 기록하고, 이 디스크립터들을 링 버퍼 형태로 구성하여 NIC에게 알려준다. NIC는 이 링 버퍼를 참조해서 자동으로 데이터를 가져가거나, 수신한 데이터를 저장한다.
+OS의 네트워크 스택은 송신할 데이터가 담긴 버퍼의 주소와 크기를 디스크립터에 기록하고, 이 디스크립터들을 링 버퍼 형태로 구성하여 NIC에게 알려준다. NIC는 이 링 버퍼를 참조해서 자동으로 데이터를 가져가거나, 수신한 데이터를 저장한다.<sup>[3](#footnote_3)</sup>
 
 ## 인터럽트 핸들링
-
+NIC는 데이터 수신 및 송신 완료나 오류 발생 등의 이벤트를 CPU에게 알리기 위해 인터럽트를 사용한다.
+- Legacy Interrupts (INTx): 공유 인터럽트 라인을 사용한다. 인터럽트 관리가 복잡하고 성능 저하를 유발할 수 있다.<sup>[4](#footnote_4)</sup>
+- MSI (Message Signaled Interrupts): NIC가 특정 메모리 주소에 정해진 데이터를 쓰면 이를 인터럽트로 인식한다. 인터럽트 라인을 공유하지 않으므로 성능이 향상된다.
+- MSI-X (Message Signaled Interrupts Extended): MSI를 확장한 것이다. 인터럽트 벡터를 더 많이 제공하고, 각각의 인터럽트 벡터를 특정 CPU 코어에 매핑할 수 있어 멀티코어 환경에서 인터럽트 처리 효율을 극대화한다.
+- 더 읽어볼 것: [Ethernet Products: Network Cards and Network Adapters - Intel®](https://www.intel.com/content/www/us/en/products/details/ethernet.html)
+---
 <a name="footnote_1">1</a>: [네트워크 인터페이스 컨트롤러 - 위키백과, 우리 모두의 백과사전](https://ko.wikipedia.org/wiki/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC_%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4_%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC). 2025년 5월 22일 확인.
 <a name="footnote_2">2</a>: [Network Interface Card (NIC) Guide - Definition, Types and Functions](https://www.qsfptek.com/qt-news/nic-network-interface-card-definition-types-and-functions). 2025년 1월 29일. 
+<a name="footnote_3">3</a>: [직접 메모리 접근 - 위키백과, 우리 모두의 백과사전](https://ko.wikipedia.org/wiki/%EC%A7%81%EC%A0%91_%EB%A9%94%EB%AA%A8%EB%A6%AC_%EC%A0%91%EA%B7%BC). 2025년 5월 22일 확인.
+<a name="footnote_4">4</a>: [Legacy INTx Interrupt • AXI Bridge for PCI Express Gen3 Subsystem Product Guide (PG194) • Reader • AMD Technical Information Portal](https://docs.amd.com/r/en-US/pg194-axi-bridge-pcie-gen3/Legacy-INTx-Interrupt?tocId=HVZ3K1cLjUDl50Yuj7n5Gw). 2025년 5월 22일 확인.
